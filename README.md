@@ -1,6 +1,10 @@
 # uniapp vite ts project
 
+## UI 库
+- Vant4 h5(Vant-weapp 小程序版本)
+
 ## vscode 运行
+
 安装插件
 
 - uni-helper
@@ -14,3 +18,4 @@ npm run dev:h5
 // 小程序
 npm run dev:mp-weixin
 ~~~
+
