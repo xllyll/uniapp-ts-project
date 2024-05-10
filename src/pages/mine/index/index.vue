@@ -1,16 +1,17 @@
 <template>
-	
+	<view>
+		
+	</view>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 	import { onLoad } from '@dcloudio/uni-app';
 	
 	onLoad((_e) => {
-		uni.reLaunch({
-			url:'/pages/home/index/index'
-		})
+		
 	});
 </script>
 
 <style>
+
 </style>
