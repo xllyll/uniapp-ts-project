@@ -9,7 +9,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import store from "@/store";
 const title = ref('Hello')
+store.
 </script>
 
 <style>
