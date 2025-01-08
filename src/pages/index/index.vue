@@ -1,4 +1,5 @@
 <template>
+  <nav-bar></nav-bar>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
@@ -9,9 +10,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import store from "@/store";
 const title = ref('Hello')
-store.
+onLoad(()=>{
+  alert("-----")
+})
 </script>
 
 <style>
