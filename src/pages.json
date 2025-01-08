@@ -5,59 +5,12 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		},
-		{
-			"path" : "pages/home/index/index",
-			"style" : 
-			{
-				"navigationBarTitleText" : "首页"
-			}
-		},
-		{
-			"path" : "pages/mine/index/index",
-			"style" : 
-			{
-				"navigationBarTitleText" : "我"
-			}
 		}
 	],
-	"tabBar": {
-		"borderStyle": "black",
-		"backgroundColor": "#fff",
-		"color": "#D0D0D0",
-		"selectedColor": "#61B666",
-		"list": [{
-				"pagePath": "pages/home/index/index",
-				"iconPath": "static/tabbar/mainicon_dynamic_unchecked.png",
-				"selectedIconPath": "static/tabbar/mainicon_dynamic_checked.png",
-				"text": "首页"
-			},
-			{
-				"pagePath": "pages/mine/index/index",
-				"iconPath": "static/tabbar/mainicon_mine_unchecked.png",
-				"selectedIconPath": "static/tabbar/mainicon_mine_checked.png",
-				"text": "我的"
-			}
-		]
-	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"mp-weixin": {
-			"usingComponents": {
-				"van-search": "/wxcomponents/vant/dist/search/index",
-				"van-grid": "/wxcomponents/vant/dist/grid/index",
-				"van-grid-item": "/wxcomponents/vant/dist/grid-item/index",
-				"van-cell": "/wxcomponents/vant/dist/cell/index",
-				"van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
-				"van-button": "/wxcomponents/vant/dist/button/index",
-				"van-swipe-cell": "/wxcomponents/vant/dist/swipe-cell/index",
-				"van-calendar": "/wxcomponents/vant/dist/calendar/index",
-				"van-switch": "/wxcomponents/vant/dist/switch/index",
-				"van-rate": "/wxcomponents/vant/dist/rate/index"
-			}
-		}
+		"backgroundColor": "#F8F8F8"
 	}
 }
