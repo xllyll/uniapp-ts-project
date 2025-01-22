@@ -13,6 +13,14 @@ npm run dev:h5
 
 ~~~
 
+## 引用库
+
+~~~
+
+uin-app：lastversion
+
+~~~
+
 ## 结构说明
 ~~~
 auto-imports.d.ts 自动引入生成文件
